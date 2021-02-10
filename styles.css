@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: 'Fira Mono', monospace;
+}
+
+button {
+  font-family: 'Fira Mono', monospace;
+}
+
+#unityContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.controls button {
+  border: 2px solid plum;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.controls button:hover {
+  background-color: plum;
+}
+
+.controls button:focus {
+  outline: none;
+}
